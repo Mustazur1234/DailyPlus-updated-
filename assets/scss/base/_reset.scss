@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+
+
+a{
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
+}
+h1,h2,h3,h4,h5,h6,p{
+    color: var(--text-color);
+    margin-bottom: 0px !important;
+    font-family: $font-family;
+}
+h2{
+    font-size: 2em;
+    font-weight: 500;
+    color: var(--text-color);
+}
+h3{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+h6{
+    font-size: 0.9em;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    padding-bottom: 10px;
+}
+ul li a{
+    color: var(--text-color);
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+.btn{
+    border: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.btn:focus{
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.form-control:focus{
+    outline: 0 !important;
+    box-shadow: none !important;
+}

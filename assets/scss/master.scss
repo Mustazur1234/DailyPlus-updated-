@@ -1,0 +1,20 @@
+//bootstrap v4.5 added from node_modules
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+//variables
+@import './utlis/variables';
+@import './utlis/mixin';
+@import './base/reset'; 
+// components
+@import './components/button'; 
+@import './components/gene-list'; 
+
+// layout
+@import './layout/header-top'; 
+@import './layout/navbar'; 
+// card sidebar right
+@import './layout/card-sidebar'; 
+@import './layout/sidebar-left'; 
+
+// helper 
+@import './utlis/helper'; 

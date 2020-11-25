@@ -1,0 +1,45 @@
+:root{
+    --primary-color: #5EC401;
+    --primary-second: rgba(94, 196, 1, .3);
+    --secondary-color: #F37A20;
+    --text-color:#3C4B52;
+    --border-radius:6px;
+    --icon-color: #3C4B52;
+    --card-bg: #F4F4F5;
+    --font : 'Source Sans Pro', sans-serif;
+    --overlayColor : rgba(0,0,0, 0.3);
+    --white : #fff;
+    --borderClr : #e9e9e9;
+    --red: #FF5552;
+    --lightGrey : #73827F;
+    --grey : #CCCCCC;
+    --bodyBackground : #F4F6F9;
+}
+
+
+$font-family    : var(--font);
+$overlayClr     : var(--overlayColor);
+$white          : var(--white);
+$borderClr      : var(--borderClr);
+$primary        : var(--primary-color);
+$secondary      : var(--secondary-color);
+$red            : var(--red);
+$primary-second : var(--primary-second);
+$lightGrey      : var(--lightGrey);
+$grey           : var(--grey);
+$bodyBackground : var(--bodyBackground);
+
+/*
+    ===============================
+    responsive breakpoint
+    ===============================
+*/ 
+
+
+$small_mobile : 360px;
+$mobile : 575px;
+$tablet : 640px;
+$large_tablet : 768px;
+$laptop : 991px;
+$small_desktop: 1200px;
+$desktop : 1600px;

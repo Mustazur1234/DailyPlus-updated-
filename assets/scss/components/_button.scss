@@ -1,0 +1,44 @@
+.secondary-btn{
+    background: $secondary;
+    font-family: $font-family;
+    font-size: 16px;
+    color: $white;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover{
+        color: $white;
+    }
+}
+
+
+.btn-style-three{
+    background: $primary-second;
+    font-family: $font-family;
+    font-size: 16px;
+    color: $primary;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover{
+        background: $primary;
+        color: #fff;
+    }
+}
+
+.btn-style-four{
+    background: $primary;
+    font-family: $font-family;
+    font-size: 16px;
+    color: $white;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover{
+        background: $secondary;
+        color: #fff;
+    }
+}

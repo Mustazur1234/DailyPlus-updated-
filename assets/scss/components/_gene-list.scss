@@ -1,0 +1,54 @@
+.genie-list-container{
+    .nav{
+        justify-content: space-between;
+        .nav-link.active{
+            background: $primary;
+        }
+    }
+    
+    .genie-list-new{
+        .genie-list-product{
+            .gene-image{
+                width: 100px;
+                margin-right: 20px;
+            }
+            .show-quantity{
+                border: 1px solid $borderClr;
+                width: 60px;
+                text-align: center;
+                line-height: 30px;
+                height: 30px;
+                padding: 0;
+                border-radius: 0;
+            }
+            
+            .btn{
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                padding: 0;
+                background: $borderClr;
+                font-size: 12px;
+                border: 0;
+                color: #fff;
+                border-radius: 0;
+            }
+    
+            .btn-minus{
+                background: $red;
+            }
+    
+            
+            .btn-plus{
+                background: $primary;
+            }
+        }
+    }
+
+
+    .add-more-gene-list{
+        display: block;
+        width: 100%;
+    }
+
+}

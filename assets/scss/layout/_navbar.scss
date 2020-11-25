@@ -1,0 +1,84 @@
+#navigationBar{
+
+    .navbar-all-btns{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @include laptop{
+            padding-top: 20px;
+        }
+    }
+
+    .logo-holder{
+        @include mobile{
+            padding-bottom: 20px;
+        }
+    }
+
+    .cat-btn{
+        i{
+            padding-right: 8px;
+            color: $primary;
+        }
+    }
+
+    .nav-search-bar{
+        display: flex;
+        align-items: center;
+        background: $primary-second;
+        border-radius: 4px;
+        padding: 3px 30px;
+        
+        @include small_desktop{
+            width: 290px;
+            margin-left: 25px;
+        }
+
+        @include laptop{
+            width: 100%;
+            margin-left: 0px;
+        }
+
+       
+
+        input{
+            background: transparent;
+            border: 0;
+            font-family: $font-family;
+            font-size: 14px;
+            
+            &::placeholder{
+                font-family: $font-family;
+                font-size: 14px;
+            }
+        }
+
+        .search-btn{
+            background: transparent;
+            i{
+                color: $lightGrey;
+            }
+        }        
+    }
+
+
+    .user-btn{
+        background: $grey;
+        @include equal_round(40px, 50%);
+        cursor: pointer;
+        i{
+            color: $white;
+            font-size: 20px;
+        }
+    }
+
+    .lamp-btn{
+        .lamp-btn-img{
+            width: 25px;
+        }
+    }
+
+
+}
+
+
